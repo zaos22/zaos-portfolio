@@ -4,9 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
-import logo from './logo.png';
+import logo from '../logo.png';
 import axios from 'axios';
-import { FaInstagram, FaGithub, FaShareAlt } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaShareAlt, FaLinkedin } from 'react-icons/fa';
 
 function Header() {
     const [quote, setQuote] = useState({ text: '', author: '' });
@@ -73,10 +73,16 @@ function Header() {
                                     </div>
                                 </Nav.Link>
                             </div>
-
+                            <div className='pe-5'>
+                                <Nav.Link href="#">
+                                    <div className="social-icon">
+                                        <FaGithub />
+                                    </div>
+                                </Nav.Link>
+                            </div>
                             <Nav.Link href="#">
                                 <div className="social-icon">
-                                    <FaGithub />
+                                    <FaLinkedin />
                                 </div>
                             </Nav.Link>
                         </div>
@@ -95,6 +101,11 @@ function Header() {
                                 <Dropdown.Item href="#">
                                     <div className="social-icon">
                                         <FaGithub />
+                                    </div>
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#">
+                                    <div className="social-icon">
+                                        <FaLinkedin />
                                     </div>
                                 </Dropdown.Item>
                             </Dropdown.Menu>
