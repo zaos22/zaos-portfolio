@@ -110,7 +110,6 @@
 .mytitle {
   text-align: start;
 }
-
 /* Estilo para dispositivos extra pequeños (teléfonos móviles) */
 @media (max-width: 576px) {
   .font-size-name {
@@ -131,13 +130,13 @@
 
   .image {
     width: 100%;
-    height: 100%;
+    height: auto; /* Ajusta la altura automáticamente */
   }
 
   .image-marco {
-    border: 5px solid #e4f0ff; /* Establece el ancho y el color del borde */
-    border-radius: 50%; /* Crea un borde circular */
-    padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
+    border: 5px solid #e4f0ff;
+    border-radius: 50%;
+    padding: 5px;
   }
 
   .mytitle {
@@ -164,14 +163,14 @@
   }
 
   .image {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente */
   }
 
   .image-marco {
-    border: 5px solid #e4f0ff; /* Establece el ancho y el color del borde */
-    border-radius: 50%; /* Crea un borde circular */
-    padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
+    border: 5px solid #e4f0ff;
+    border-radius: 50%;
+    padding: 5px;
   }
 
   .mytitle {
@@ -179,19 +178,26 @@
   }
 }
 
-/* Estilo para dispositivos medianos (tabletas en modo paisaje y computadoras portátiles) */
-@media (min-width: 769px) and (max-width: 992px) {
+/* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
+@media (min-width: 820px) {
+  .card-align {
+    display: block;
+  }
+  .image {
+    width: 70%;
+    height: auto; /* Ajusta la altura automáticamente */
+  }
 }
 
 /* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px) {
   .card-align {
     display: flex;
     justify-content: space-between;
   }
   .image {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: auto; /* Ajusta la altura automáticamente */
   }
 }
 
@@ -202,15 +208,9 @@
     justify-content: space-between;
   }
   .image {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente */
   }
-}
-
-@media (max-width: 400px) {
-}
-
-@media (max-width: 500px) {
 }
 
 .ArrowDown {

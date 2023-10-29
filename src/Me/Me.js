@@ -13,7 +13,7 @@ function Me() {
                 <div>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='card-align'>
-                            <div className='d-flex align-items-center justify-content-center'>
+                            <div className='d-flex align-items-center justify-content-center ps-3'>
                                 <div className='image'>
                                     <Card.Img variant="top" className=' image-marco' src={logo} />
                                 </div>
