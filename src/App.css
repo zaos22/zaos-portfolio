@@ -6,7 +6,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-shake 6s linear infinite alternate, App-logo-fade 4s ease-in-out infinite alternate;
+    animation: App-logo-shake 6s linear infinite alternate,
+      App-logo-fade 4s ease-in-out infinite alternate;
   }
 }
 
@@ -29,13 +30,42 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.image {
+  margin-top: 55px;
+  margin-right: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.image-marco {
+  border: 5px solid #e4f0ff; /* Establece el ancho y el color del borde */
+  border-radius: 50%; /* Crea un borde circular */
+  padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
+}
+
+.btn_color {
+  background-color: #e4f0ff;
+  color: #000; /* Text color */
+  font-size: 25px;
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 3px 3px 5px #888888; /* Box shadow with horizontal and vertical offsets and blur radius */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Hover effect: adjust the shadow on hover */
+.shadow-button:hover {
+  box-shadow: 5px 5px 8px #888888;
+}
+
 .colorbg {
   background-color: #ffeada;
 }
 
 .colorbg2 {
   background-color: #ffc14577;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .social-icon {
@@ -52,43 +82,138 @@
 }
 
 .font-size-name {
-  padding-top: 100px;
+  padding-top: 300px;
   font-size: 150px;
+  font-weight: bold;
   text-align: center;
   overflow: hidden;
 }
 
 .job {
   font-size: 50px;
+  font-weight: bold;
   text-align: center;
-  padding-bottom: 250px;
+  padding-bottom: 300px;
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* Aplicar estilos para tamaños de pantalla más pequeños */
-@media (max-width: 768px) {
+.text-quote {
+  font-size: 25px;
+}
+
+.card-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mytitle {
+  text-align: start;
+}
+
+/* Estilo para dispositivos extra pequeños (teléfonos móviles) */
+@media (max-width: 576px) {
   .font-size-name {
-      font-size: 100px; /* Tamaño de fuente para pantallas pequeñas */
+    font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
   }
 
   .job {
-      font-size: 50px; /* Tamaño de fuente para pantallas pequeñas */
+    font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+
+  .text-quote {
+    font-size: 15px;
+  }
+
+  .card-align {
+    display: block;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-marco {
+    border: 5px solid #e4f0ff; /* Establece el ancho y el color del borde */
+    border-radius: 50%; /* Crea un borde circular */
+    padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
+  }
+
+  .mytitle {
+    text-align: center;
   }
 }
 
-/* Aplicar estilos para tamaños de pantalla aún más pequeños */
-@media (max-width: 480px) {
+/* Estilo para dispositivos pequeños (tabletas en modo retrato) */
+@media (min-width: 577px) and (max-width: 768px) {
   .font-size-name {
-      font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 100px; /* Tamaño de fuente para pantallas pequeñas */
   }
 
   .job {
-      font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 50px; /* Tamaño de fuente para pantallas pequeñas */
+  }
+
+  .text-quote {
+    font-size: 20px;
+  }
+
+  .card-align {
+    display: block;
+  }
+
+  .image {
+    width: 20%;
+    height: 20%;
+  }
+
+  .image-marco {
+    border: 5px solid #e4f0ff; /* Establece el ancho y el color del borde */
+    border-radius: 50%; /* Crea un borde circular */
+    padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
+  }
+
+  .mytitle {
+    text-align: center;
   }
 }
 
-.ArrowDown{
+/* Estilo para dispositivos medianos (tabletas en modo paisaje y computadoras portátiles) */
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+/* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .card-align {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Estilo para dispositivos extra grandes (pantallas grandes) */
+@media (min-width: 1201px) {
+  .card-align {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 500px) {
+}
+
+.ArrowDown {
   font-size: 60px;
   text-align: center;
   padding-bottom: 50px;
@@ -96,15 +221,18 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Ajusta el valor para controlar la altura de la "flotación" */
+    transform: translateY(
+      -10px
+    ); /* Ajusta el valor para controlar la altura de la "flotación" */
   }
 }
 
-.me{
+.me {
   flex: auto;
   justify-content: center;
   text-align: center;

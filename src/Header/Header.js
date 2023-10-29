@@ -55,8 +55,9 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
+                        <Nav.Link href=""></Nav.Link>
                         {quote && (
-                            <div className='d-flex justify-content-between'>
+                            <div className='d-flex justify-content-between text-quote'>
                                 <Nav.Link href="">"{quote.text}"</Nav.Link>
                                 <Nav.Link href="">- {quote.author.split(',')[0] === 'type.fit' ? 'Anonymous' : quote.author.split(',')[0]}</Nav.Link>
                             </div>
