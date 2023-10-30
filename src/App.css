@@ -63,10 +63,30 @@
   background-color: #ffeada;
 }
 
+.box {
+  background-color: #ffc145b6;
+  border-radius: 10%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.boxspace {
+  padding-right: 100px;
+}
+
+.boxtop {
+  padding-top: 50px;
+}
+
+.boxbottom {
+  padding-bottom: 50px;
+}
+
+
 .colorbg2 {
   background-color: #ffc14577;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
 
 .social-icon {
   margin: 0 auto;
