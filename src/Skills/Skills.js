@@ -11,36 +11,73 @@ function Skills() {
                     <div className='boxtop boxbottom'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My skills</h1>
                     </div>
-                    <div className="boxtop boxalign">
-                        <div className='boxspace'>
-                            <div className="box text-center">
-                                <h1 className='titlecards'>Frameworks</h1>
-                                <div className='myicons'>
+                    <div className='hide'>
+                        <div className="boxtop boxalign">
+                            <div className='boxspace'>
+                                <div className="box text-center">
+                                    <h1 className='titlecards'>Frameworks</h1>
+                                    <div className='myicons'>
                                         <FaReact className='iconset' />
                                         <FaAngular className='iconset' />
                                         <FaVuejs className='iconset' />
                                         <FaLaravel className='iconset3' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='divhide'>
+                                
+                            </div>
+                            <div className="box text-center">
+                                <h1 className='titlecards'>Languages</h1>
+                                <div className='myicons'>
+                                    <FaPhp className='iconset' />
+                                    <FaJsSquare className='iconset' />
+                                    <FaPython className='iconset' />
+                                    <FaJava className='iconset3' />
                                 </div>
                             </div>
                         </div>
-                        <div className="box text-center">
-                            <h1 className='titlecards'>Languages</h1>
-                            <div className='myicons'>
-                                <FaPhp className='iconset' />
-                                <FaJsSquare className='iconset' />
-                                <FaPython className='iconset' />
-                                <FaJava className='iconset3' />
+                    </div>
+                    <div className='hide2 pt-50 pb-50'>
+                        <div className='d-flex justify-content-center align-items-center'>
+                            <div className="boxtop boxbottom" style={{width:'90%'}}>
+                                <div className="box text-center">
+                                    <h1 className='titlecards'>Frameworks</h1>
+                                    <div className='myicons'>
+                                        <FaReact className='iconset' />
+                                        <FaAngular className='iconset' />
+                                        <FaVuejs className='iconset' />
+                                        <FaLaravel className='iconset3' />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="boxtop boxbottom">
-                        <div className="box text-center">
-                            <h1 className='titlecards'>Others</h1>
-                            <div className='myicons'>
-                                <FaAws className='iconset2' />
-                                <FaDocker className='iconset2' />
-                                <FaDatabase className='iconset2' />
-                                <FaBootstrap className='iconset3' />
+                    <div className='hide2 pt-50 pb-50'>
+                        <div className='d-flex justify-content-center align-items-center'>
+                            <div className="boxtop boxbottom">
+                                <div className="box text-center">
+                                    <h1 className='titlecards'>Languages</h1>
+                                    <div className='myicons'>
+                                        <FaPhp className='iconset' />
+                                        <FaJsSquare className='iconset' />
+                                        <FaPython className='iconset' />
+                                        <FaJava className='iconset3' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='d-flex justify-content-center align-items-center'>
+                        <div className="boxtop boxbottom">
+                            <div className="box text-center">
+                                <h1 className='titlecards'>Others</h1>
+                                <div className='myicons'>
+                                    <FaAws className='iconset2' />
+                                    <FaDocker className='iconset2' />
+                                    <FaDatabase className='iconset2' />
+                                    <FaBootstrap className='iconset3' />
+                                </div>
                             </div>
                         </div>
                     </div>

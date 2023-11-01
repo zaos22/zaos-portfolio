@@ -43,6 +43,12 @@
   padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
 }
 
+.divhide {
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .btn_color {
   background-color: #e4f0ff;
   color: #000; /* Text color */
@@ -71,8 +77,12 @@
   height: auto;
 }
 
-.boxspace {
-  padding-right: 100px;
+.hide {
+  display: block;
+}
+
+.hide2 {
+  display: none;
 }
 
 .boxtop {
@@ -83,7 +93,7 @@
   padding-bottom: 50px;
 }
 
-.boxalign{
+.boxalign {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,10 +148,16 @@
 }
 /* Estilo para dispositivos extra pequeños (teléfonos móviles) */
 @media (max-width: 576px) {
-  .boxalign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .hide {
+    display: none;
+  }
+
+  .hide2 {
+    display: block;
+  }
+
+  .divhide {
+    display: none;
   }
 
   .font-size-name {
@@ -178,12 +194,18 @@
 
 /* Estilo para dispositivos pequeños (tabletas en modo retrato) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .boxalign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .hide {
+    display: none;
   }
-  
+
+  .hide2 {
+    display: block;
+  }
+
+  .divhide {
+    display: none;
+  }
+
   .font-size-name {
     font-size: 100px; /* Tamaño de fuente para pantallas pequeñas */
   }
@@ -277,23 +299,23 @@
   padding-right: 30px;
 }
 
-.iconset{
+.iconset {
   padding-right: 1px;
 }
 
-.iconset:hover{
+.iconset:hover {
   color: #ffeada;
 }
 
-.iconset2{
+.iconset2 {
   padding-right: 10px;
 }
 
-.iconset2:hover{
+.iconset2:hover {
   color: #ffeada;
 }
 
-.iconset3:hover{
+.iconset3:hover {
   color: #ffeada;
 }
 
