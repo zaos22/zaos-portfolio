@@ -67,6 +67,8 @@
   background-color: #ffc145b6;
   border-radius: 10%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
 }
 
 .boxspace {
@@ -81,12 +83,16 @@
   padding-bottom: 50px;
 }
 
+.boxalign{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .colorbg2 {
   background-color: #ffc14577;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
 
 .social-icon {
   margin: 0 auto;
@@ -113,7 +119,7 @@
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 250px;
+  padding-bottom: 150px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -132,6 +138,12 @@
 }
 /* Estilo para dispositivos extra pequeños (teléfonos móviles) */
 @media (max-width: 576px) {
+  .boxalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .font-size-name {
     font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
   }
@@ -166,6 +178,12 @@
 
 /* Estilo para dispositivos pequeños (tabletas en modo retrato) */
 @media (min-width: 577px) and (max-width: 768px) {
+  .boxalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .font-size-name {
     font-size: 100px; /* Tamaño de fuente para pantallas pequeñas */
   }
@@ -236,8 +254,47 @@
 .ArrowDown {
   font-size: 60px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
+}
+
+.titlecards {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.myicons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.iconset{
+  padding-right: 1px;
+}
+
+.iconset:hover{
+  color: #ffeada;
+}
+
+.iconset2{
+  padding-right: 10px;
+}
+
+.iconset2:hover{
+  color: #ffeada;
+}
+
+.iconset3:hover{
+  color: #ffeada;
 }
 
 @keyframes float {
