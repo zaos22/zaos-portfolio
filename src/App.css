@@ -315,8 +315,13 @@
 .titlecards {
   text-align: center;
   font-size: 50px;
-  padding-right: 5px;
   font-weight: bold;
+  width: 100%;
+  height: auto;
+}
+
+.marginb{
+  margin: 150px;
 }
 
 .myicons {

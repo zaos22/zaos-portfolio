@@ -15,7 +15,9 @@ function Skills() {
                 <div className='hidediv'>
                     <div className='note-align'>
                         <div class="note">
-                            <h1 className='titlecards'>Frameworks</h1>
+                            <div className='titlecards'>
+                                <p>FW</p>
+                            </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
                                 <FaAngular className='iconset' />
@@ -24,7 +26,9 @@ function Skills() {
                             </div>
                         </div>
                         <div class="note">
-                            <h1 className='titlecards'>Languages</h1>
+                            <div className='titlecards'>
+                                <p>Languages</p>
+                            </div>
                             <div className='myicons'>
                                 <FaPhp className='iconset' />
                                 <FaJsSquare className='iconset' />
@@ -37,7 +41,9 @@ function Skills() {
                 <div className='hidediv2'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div class="note">
-                            <h1 className='titlecards'>Frameworks</h1>
+                            <div className='titlecards'>
+                                <p>FW</p>
+                            </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
                                 <FaAngular className='iconset' />
@@ -48,7 +54,9 @@ function Skills() {
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div class="note">
-                            <h1 className='titlecards'>Languages</h1>
+                            <div className='titlecards'>
+                                <p>Languages</p>
+                            </div>
                             <div className='myicons'>
                                 <FaPhp className='iconset' />
                                 <FaJsSquare className='iconset' />
@@ -60,7 +68,9 @@ function Skills() {
                 </div>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div class="note">
-                        <h1 className='titlecards'>Others</h1>
+                        <div className='titlecards'>
+                            <p>Others</p>
+                        </div>
                         <div className='myicons'>
                             <FaAws className='iconset2' />
                             <FaDocker className='iconset2' />
@@ -69,6 +79,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
+            <div className='marginb'></div>
             </Container>
         </Navbar>
     );
