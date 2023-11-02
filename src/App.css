@@ -43,12 +43,6 @@
   padding: 5px; /* Añade un espacio alrededor de la imagen si es necesario */
 }
 
-.divhide {
-  display: block;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 .btn_color {
   background-color: #e4f0ff;
   color: #000; /* Text color */
@@ -69,22 +63,6 @@
   background-color: #ffeada;
 }
 
-.box {
-  background-color: #ffc145b6;
-  border-radius: 10%;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: auto;
-}
-
-.hide {
-  display: block;
-}
-
-.hide2 {
-  display: none;
-}
-
 .boxtop {
   padding-top: 50px;
 }
@@ -93,10 +71,11 @@
   padding-bottom: 50px;
 }
 
-.boxalign {
+/* Estilos para el contenedor de notas */
+.note-align {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  justify-content: center; /* Centrar horizontalmente */
 }
 
 .colorbg2 {
@@ -146,18 +125,55 @@
 .mytitle {
   text-align: start;
 }
+
+/* Estilos para las notas adhesivas */
+.note {
+  background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+  border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+  padding: 20px;
+  margin: 20px;
+  width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+  max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.hidediv {
+  display: block;
+}
+
+.hidediv2 {
+  display: none;
+}
+
 /* Estilo para dispositivos extra pequeños (teléfonos móviles) */
 @media (max-width: 576px) {
-  .hide {
+  /* Estilos para las notas adhesivas */
+  .note {
+    background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+    padding: 10px;
+    margin: 10px;
+    width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+    max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .hidediv {
     display: none;
   }
 
-  .hide2 {
+  .hidediv2 {
     display: block;
   }
 
-  .divhide {
-    display: none;
+  .note-align {
+    display: block;
+  }
+
+  .note {
+    max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
   }
 
   .font-size-name {
@@ -194,16 +210,32 @@
 
 /* Estilo para dispositivos pequeños (tabletas en modo retrato) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .hide {
+  /* Estilos para las notas adhesivas */
+  .note {
+    background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+    padding: 10px;
+    margin: 10px;
+    width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+    max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .hidediv {
     display: none;
   }
 
-  .hide2 {
+  .hidediv2 {
     display: block;
   }
 
-  .divhide {
-    display: none;
+  .note-align {
+    display: block;
+  }
+
+  .note {
+    max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
   }
 
   .font-size-name {
@@ -281,12 +313,9 @@
 }
 
 .titlecards {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 30px;
-  padding-bottom: 15px;
   text-align: center;
   font-size: 50px;
+  padding-right: 5px;
   font-weight: bold;
 }
 
@@ -294,9 +323,6 @@
   display: flex;
   justify-content: space-between;
   font-size: 50px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 30px;
 }
 
 .iconset {
