@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaAngular, FaReact, FaVuejs, FaLaravel, FaPhp, FaPython, FaJsSquare, FaJava, FaAws, FaDocker, FaDatabase, FaBootstrap } from 'react-icons/fa';
 
-function Skills() {
+function Projects() {
     return (
         <Navbar expand="lg" className="colorbg">
             <Container className='d-block'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className='boxtop boxbottom'>
-                        <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My skills</h1>
+                        <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My projects</h1>
                     </div>
                 </div>
                 <div className='hidediv'>
@@ -85,4 +85,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+export default Projects;

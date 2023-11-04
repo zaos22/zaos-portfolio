@@ -3,6 +3,7 @@ import Home from './Home/Home';
 import Me from './Me/Me';
 import Skills from './Skills/Skills';
 import Education from './Education/Education';
+import Projects from './Projects/Projects';
 import './App.css';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
             </div>
             <div>
                 <Education></Education>
+            </div>
+            <div>
+                <Projects></Projects>
             </div>
         </>
     );

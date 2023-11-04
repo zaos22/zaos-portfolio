@@ -25,6 +25,17 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+.colorbg3 {
+  background-color: #e4f0ff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.colorbg4 {
+  background-color: #ddf9e4;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
 .headerbg1 {
   background-color: #e4f0ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
