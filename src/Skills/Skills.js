@@ -16,7 +16,7 @@ function Skills() {
                     <div className='note-align'>
                         <div class="note">
                             <div className='titlecards'>
-                                <p>FW<h6>(Frameworks)</h6></p>
+                                <p>FW<h6 className='pb-2' style={{paddingTop: '-1px' }} >(Frameworks)</h6></p>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
@@ -42,7 +42,7 @@ function Skills() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div class="note">
                             <div className='titlecards'>
-                                <p>FW<h6>(Frameworks)</h6></p>
+                                <p>FW<h6 className='pb-2' style={{paddingTop: '-1px' }}>(Frameworks)</h6></p>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
