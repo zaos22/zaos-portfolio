@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import { FaAngular, FaReact, FaVuejs, FaLaravel, FaPhp, FaPython, FaJsSquare, FaJava, FaAws, FaDocker, FaDatabase, FaBootstrap } from 'react-icons/fa';
 
 function Projects() {
     return (
@@ -14,68 +13,105 @@ function Projects() {
                 </div>
                 <div className='hidediv'>
                     <div className='note-align'>
-                        <div class="note">
+                        <div class="note2">
                             <div className='titlecards'>
-                                <p>FW<h6>(Frameworks)</h6></p>
+                                <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
                             </div>
-                            <div className='myicons'>
-                                <FaReact className='iconset' />
-                                <FaAngular className='iconset' />
-                                <FaVuejs className='iconset' />
-                                <FaLaravel className='iconset3' />
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>A decentralised social network, blackchain based, and with real-time chat.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/PymeraliaProject-Sprint-4/MirmeetProject.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
-                        <div class="note">
+                        <div class="note2">
                             <div className='titlecards'>
-                                <p>Languages</p>
+                                <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
                             </div>
-                            <div className='myicons'>
-                                <FaPhp className='iconset' />
-                                <FaJsSquare className='iconset' />
-                                <FaPython className='iconset' />
-                                <FaJava className='iconset3' />
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Cybersecurity and inventory audit management application and Moodle-style LMS.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/PymeraliaProject-Sprint-4/Pymeshield-Sprint-6.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='note-align'>
+                        <div class="note2">
+                            <div className='titlecards'>
+                                <p>DeepCycle<h5 style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5></p>
+                            </div>
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Bicycle store with integrated ERP system and dynamic website.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/zaos22/deep-cycle_shop.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="note2">
+                            <div className='titlecards'>
+                                <p>Portfolio<h5 style={{ color: '#FA9BE5' }} >React - Bootstrap</h5></p>
+                            </div>
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Minimalist portfolio page with warm colors and simple structure.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/zaos22/zaos-portfolio.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='hidediv2'>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note">
+                        <div class="note2">
                             <div className='titlecards'>
-                                <p>FW<h6>(Frameworks)</h6></p>
+                                <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
                             </div>
-                            <div className='myicons'>
-                                <FaReact className='iconset' />
-                                <FaAngular className='iconset' />
-                                <FaVuejs className='iconset' />
-                                <FaLaravel className='iconset3' />
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>A decentralised social network, blackchain based, and with real-time chat.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/PymeraliaProject-Sprint-4/MirmeetProject.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note">
+                        <div class="note2">
                             <div className='titlecards'>
-                                <p>Languages</p>
+                                <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
                             </div>
-                            <div className='myicons'>
-                                <FaPhp className='iconset' />
-                                <FaJsSquare className='iconset' />
-                                <FaPython className='iconset' />
-                                <FaJava className='iconset3' />
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Cybersecurity and inventory audit management application and Moodle-style LMS.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/PymeraliaProject-Sprint-4/Pymeshield-Sprint-6.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='d-flex justify-content-center align-items-center'>
-                    <div class="note">
-                        <div className='titlecards'>
-                            <p>Others</p>
+                    <div className='d-flex justify-content-center align-items-center'>
+                        <div class="note2">
+                            <div className='titlecards'>
+                                <p>DeepCycle<h5 style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5></p>
+                            </div>
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Bicycle store with integrated ERP system and dynamic website.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/zaos22/deep-cycle_shop.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
+                            </div>
                         </div>
-                        <div className='myicons'>
-                            <FaAws className='iconset2' />
-                            <FaDocker className='iconset2' />
-                            <FaDatabase className='iconset2' />
-                            <FaBootstrap className='iconset3' />
+                    </div>
+                    <div className='d-flex justify-content-center align-items-center'>
+                        <div class="note2">
+                            <div className='titlecards'>
+                                <p>Portfolio<h5 style={{ color: '#FA9BE5' }} >React - Bootstrap</h5></p>
+                            </div>
+                            <div className='text-center' style={{ fontSize: '16px' }}>
+                                <p>Minimalist portfolio page with warm colors and simple structure.</p>
+                            </div>
+                            <div className='d-flex justify-content-center pt-3'>
+                                <a href='https://github.com/zaos22/zaos-portfolio.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
+                            </div>
                         </div>
                     </div>
                 </div>

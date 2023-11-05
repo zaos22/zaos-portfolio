@@ -37,7 +37,7 @@
 
 
 .headerbg1 {
-  background-color: #e4f0ff;
+  background-color: #ffc14577;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -63,6 +63,10 @@
   border-radius: 5px; /* Rounded corners */
   box-shadow: 3px 3px 5px #888888; /* Box shadow with horizontal and vertical offsets and blur radius */
   cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.btn_color:hover{
+  background-color: #e4f0ff4e;
 }
 
 /* Hover effect: adjust the shadow on hover */
@@ -125,7 +129,7 @@
 }
 
 .text-quote {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .card-align {
@@ -139,8 +143,20 @@
 
 /* Estilos para las notas adhesivas */
 .note {
-  background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+  background-color: #e4f0ff; /* Color de fondo similar al color de un post-it */
   border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+  padding: 20px;
+  margin: 20px;
+  width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+  max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para las notas adhesivas */
+.note2 {
+  background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
+  border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
   padding: 20px;
   margin: 20px;
   width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -161,8 +177,19 @@
 @media (max-width: 576px) {
   /* Estilos para las notas adhesivas */
   .note {
-    background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+    background-color: #e4f0ff; /* Color de fondo similar al color de un post-it */
     border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+    padding: 10px;
+    margin: 10px;
+    width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+    max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .note2 {
+    background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
     padding: 10px;
     margin: 10px;
     width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -185,6 +212,10 @@
 
   .note {
     max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
+  }
+
+  .note2{
+    max-width: 100%;
   }
 
   .font-size-name {
@@ -223,8 +254,19 @@
 @media (min-width: 577px) and (max-width: 768px) {
   /* Estilos para las notas adhesivas */
   .note {
-    background-color: #ffc145b6; /* Color de fondo similar al color de un post-it */
+    background-color: #e4f0ff; /* Color de fondo similar al color de un post-it */
     border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
+    padding: 10px;
+    margin: 10px;
+    width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
+    max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .note2 {
+    background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
     padding: 10px;
     margin: 10px;
     width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -247,6 +289,10 @@
 
   .note {
     max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
+  }
+
+  .note2{
+    max-width: 100%;
   }
 
   .font-size-name {
@@ -346,7 +392,7 @@
 }
 
 .iconset:hover {
-  color: #ffeada;
+  color: #ffc14577;
 }
 
 .iconset2 {
@@ -354,11 +400,11 @@
 }
 
 .iconset2:hover {
-  color: #ffeada;
+  color: #ffc14577;
 }
 
 .iconset3:hover {
-  color: #ffeada;
+  color: #ffc14577;
 }
 
 @keyframes float {
