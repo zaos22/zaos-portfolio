@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Projects() {
     return (
         <Navbar expand="lg" className="colorbg">
-            <Container className='d-block'>
+            <Container className='d-block text-center'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className='boxtop boxbottom'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My projects</h1>
@@ -15,7 +15,7 @@ function Projects() {
                     <div className='note-align'>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
+                                <p>Mirmeet</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>A decentralised social network, blackchain based, and with real-time chat.</p>
@@ -26,7 +26,7 @@ function Projects() {
                         </div>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
+                                <p>PymeShield</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Cybersecurity and inventory audit management application and Moodle-style LMS.</p>
@@ -39,7 +39,7 @@ function Projects() {
                     <div className='note-align'>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>DeepCycle<h5 style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5></p>
+                                <p>DeepCycle</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Bicycle store with integrated ERP system and dynamic website.</p>
@@ -48,9 +48,9 @@ function Projects() {
                                 <a href='https://github.com/zaos22/deep-cycle_shop.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
-                                <p>Portfolio<h5 style={{ color: '#FA9BE5' }} >React - Bootstrap</h5></p>
+                                <p>Portfolio</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >React - Bootstrap</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Minimalist portfolio page with warm colors and simple structure.</p>
@@ -65,7 +65,7 @@ function Projects() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
+                                <p>Mirmeet</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>A decentralised social network, blackchain based, and with real-time chat.</p>
@@ -78,7 +78,7 @@ function Projects() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
+                                <p>PymeShield</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Cybersecurity and inventory audit management application and Moodle-style LMS.</p>
@@ -89,9 +89,9 @@ function Projects() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
-                                <p>DeepCycle<h5 style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5></p>
+                                <p>DeepCycle</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Bicycle store with integrated ERP system and dynamic website.</p>
@@ -102,9 +102,9 @@ function Projects() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
-                                <p>Portfolio<h5 style={{ color: '#FA9BE5' }} >React - Bootstrap</h5></p>
+                                <p>Portfolio</p><h5 className='pb-3' style={{ color: '#FA9BE5' }} >React - Bootstrap</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
                                 <p>Minimalist portfolio page with warm colors and simple structure.</p>

@@ -6,7 +6,7 @@ import { FaAngular, FaReact, FaVuejs, FaLaravel, FaPhp, FaPython, FaJsSquare, Fa
 function Skills() {
     return (
         <Navbar expand="lg" className="colorbg">
-            <Container className='d-block'>
+            <Container className='d-block text-center'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className='boxtop boxbottom'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My skills</h1>
@@ -14,9 +14,9 @@ function Skills() {
                 </div>
                 <div className='hidediv'>
                     <div className='note-align'>
-                        <div class="note">
+                        <div className="note">
                             <div className='titlecards'>
-                                <p>FW<h6 className='pb-2' style={{paddingTop: '-1px' }} >(Frameworks)</h6></p>
+                                <p>FW</p><h6 className='pb-3'>(Frameworks)</h6>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
@@ -25,7 +25,7 @@ function Skills() {
                                 <FaLaravel className='iconset3' />
                             </div>
                         </div>
-                        <div class="note">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Languages</p>
                             </div>
@@ -42,7 +42,7 @@ function Skills() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note">
                             <div className='titlecards'>
-                                <p>FW<h6 className='pb-2' style={{paddingTop: '-1px' }}>(Frameworks)</h6></p>
+                                <p>FW</p><h6 className='pb-3'>(Frameworks)</h6>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />

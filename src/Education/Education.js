@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import { FaUniversity, FaBuilding } from 'react-icons/fa';
-
-import logo from '../Oussama_Zazou_Abid.png';
 
 function Education() {
 
