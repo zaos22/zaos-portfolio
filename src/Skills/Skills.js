@@ -6,7 +6,7 @@ import { FaAngular, FaReact, FaVuejs, FaLaravel, FaPhp, FaPython, FaJsSquare, Fa
 function Skills() {
     return (
         <Navbar expand="lg" className="colorbg">
-            <Container className='d-block text-center'>
+            <Container className='d-block'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className='boxtop boxbottom'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My skills</h1>
@@ -16,7 +16,7 @@ function Skills() {
                     <div className='note-align'>
                         <div className="note">
                             <div className='titlecards'>
-                                <p>FW</p><h6 className='pb-3'>(Frameworks)</h6>
+                                <p>FW</p>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />

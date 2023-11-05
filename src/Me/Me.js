@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
@@ -15,7 +15,7 @@ function Me() {
                         <div className='card-align'>
                             <div className='d-flex align-items-center justify-content-center ps-3'>
                                 <div className='image'>
-                                    <Card.Img variant="top" className=' image-marco' src={logo} />
+                                    <Card.Img variant="top" className=' image-marco' alt='image-of-the-author' src={logo} />
                                 </div>
                             </div>
                             <Card.Body className='mt-5'>
