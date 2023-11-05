@@ -5,6 +5,7 @@ import Skills from './Skills/Skills';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import './App.css';
+import Footer from './Footer/Footer';
 
 function App() {
     return (
@@ -26,6 +27,9 @@ function App() {
             </div>
             <div>
                 <Projects></Projects>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </>
     );

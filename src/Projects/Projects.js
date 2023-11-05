@@ -13,7 +13,7 @@ function Projects() {
                 </div>
                 <div className='hidediv'>
                     <div className='note-align'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
                                 <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
                             </div>
@@ -24,7 +24,7 @@ function Projects() {
                                 <a href='https://github.com/PymeraliaProject-Sprint-4/MirmeetProject.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
                                 <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
                             </div>
@@ -37,7 +37,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className='note-align'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
                                 <p>DeepCycle<h5 style={{ color: '#FA9BE5' }} >Laravel - React - Bootstrap</h5></p>
                             </div>
@@ -63,7 +63,7 @@ function Projects() {
                 </div>
                 <div className='hidediv2'>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
                                 <p>Mirmeet<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - WebSocket</h5></p>
                             </div>
@@ -76,7 +76,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note2">
+                        <div className="note2">
                             <div className='titlecards'>
                                 <p>PymeShield<h5 style={{ color: '#FA9BE5' }} >Laravel - Vue - Python - Kivy</h5></p>
                             </div>

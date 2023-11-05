@@ -21,9 +21,26 @@
 }
 
 .headerbg2 {
-  background-color: #ddf9e4;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-image: url('./vector.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  animation: desplazamiento 10s linear infinite; /* 10s es la duración de la animación, ajusta según tus preferencias */
 }
+
+@keyframes desplazamiento {
+  0% {
+    background-position: 0 0;
+  }
+  90% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0; /* Vuelve al inicio de la animación */
+  }
+}
+
 
 .colorbg3 {
   background-color: #e4f0ff;
@@ -34,7 +51,6 @@
   background-color: #ddf9e4;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
 
 .headerbg1 {
   background-color: #ffc14577;
@@ -65,7 +81,7 @@
   cursor: pointer; /* Add a pointer cursor on hover */
 }
 
-.btn_color:hover{
+.btn_color:hover {
   background-color: #e4f0ff4e;
 }
 
@@ -112,18 +128,18 @@
 }
 
 .font-size-name {
-  padding-top: 200px;
-  font-size: 150px;
+  padding-top: 100px;
+  font-size: 100px;
   font-weight: bold;
   text-align: center;
   overflow: hidden;
 }
 
 .job {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -173,6 +189,14 @@
   display: none;
 }
 
+.fhide{
+  display: block;
+}
+
+.fhide2{
+  display: none;
+}
+
 /* Estilo para dispositivos extra pequeños (teléfonos móviles) */
 @media (max-width: 576px) {
   /* Estilos para las notas adhesivas */
@@ -185,6 +209,14 @@
     max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
     border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .fhide{
+    display: none;
+  }
+  
+  .fhide2{
+    display: block;
   }
 
   .note2 {
@@ -214,16 +246,18 @@
     max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
   }
 
-  .note2{
+  .note2 {
     max-width: 100%;
   }
 
   .font-size-name {
     font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
+    padding-top: 150px;
   }
 
   .job {
     font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
+    padding-bottom: 200px;
   }
 
   .text-quote {
@@ -264,6 +298,14 @@
     border-radius: 10px; /* Bordes redondeados */
   }
 
+  .fhide{
+    display: none;
+  }
+  
+  .fhide2{
+    display: block;
+  }
+
   .note2 {
     background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
     border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
@@ -291,7 +333,7 @@
     max-width: 100%; /* Ancho máximo del 100% para pantallas más pequeñas */
   }
 
-  .note2{
+  .note2 {
     max-width: 100%;
   }
 
@@ -377,7 +419,7 @@
   height: auto;
 }
 
-.marginb{
+.marginb {
   margin: 150px;
 }
 

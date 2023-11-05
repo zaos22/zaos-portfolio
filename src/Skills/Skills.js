@@ -40,7 +40,7 @@ function Skills() {
                 </div>
                 <div className='hidediv2'>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>FW<h6 className='pb-2' style={{paddingTop: '-1px' }}>(Frameworks)</h6></p>
                             </div>
@@ -53,7 +53,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div class="note">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Languages</p>
                             </div>
@@ -67,7 +67,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <div class="note">
+                    <div className="note">
                         <div className='titlecards'>
                             <p>Others</p>
                         </div>
