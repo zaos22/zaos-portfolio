@@ -42,7 +42,7 @@ function Skills() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note">
                             <div className='titlecards'>
-                                <p>FW</p><h6 className='pb-3'>(Frameworks)</h6>
+                                <p>FW</p>
                             </div>
                             <div className='myicons'>
                                 <FaReact className='iconset' />
