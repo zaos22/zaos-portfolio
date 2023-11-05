@@ -252,7 +252,7 @@
 
   .font-size-name {
     font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
-    padding-top: 150px;
+    padding-top: 220px;
   }
 
   .job {
@@ -371,6 +371,13 @@
 
 /* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
 @media (min-width: 820px) {
+  .font-size-name {
+    padding-top: 500px;
+  }
+  
+  .job {
+    padding-bottom: 500px;
+  }
   .card-align {
     display: block;
   }
@@ -394,6 +401,15 @@
 
 /* Estilo para dispositivos extra grandes (pantallas grandes) */
 @media (min-width: 1201px) {
+  .font-size-name {
+    padding-top: 170px;
+    font-size: 150px;
+  }
+  
+  .job {
+    font-size: 50px;
+    padding-bottom: 120px;
+  }
   .card-align {
     display: flex;
     justify-content: space-between;
