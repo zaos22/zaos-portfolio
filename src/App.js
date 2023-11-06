@@ -1,35 +1,35 @@
-import Header from './Header/Header';
-import Home from './Home/Home';
-import Me from './Me/Me';
-import Skills from './Skills/Skills';
-import Education from './Education/Education';
-import Projects from './Projects/Projects';
+import HeaderLight from './Header/Header_light';
+import HomeLight from './Home/Home_light';
+import MeLight from './Me/Me_light';
+import SkillsLight from './Skills/Skills_light';
+import EducationLight from './Education/Education_light';
+import ProjectsLight from './Projects/Projects_light';
+import FooterLight from './Footer/Footer_light';
 import './App.css';
-import Footer from './Footer/Footer';
 
 function App() {
     return (
         <>
             <div>
-                <Header></Header>
+                <HeaderLight></HeaderLight>
             </div>
             <div>
-                <Home></Home>
+                <HomeLight></HomeLight>
             </div>
             <div>
-                <Me></Me>
+                <MeLight></MeLight>
             </div>
             <div>
-                <Skills></Skills>
+                <SkillsLight></SkillsLight>
             </div>
             <div>
-                <Education></Education>
+                <EducationLight></EducationLight>
             </div>
             <div>
-                <Projects></Projects>
+                <ProjectsLight></ProjectsLight>
             </div>
             <div>
-                <Footer></Footer>
+                <FooterLight></FooterLight>
             </div>
         </>
     );

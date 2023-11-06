@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
-import {FaAngleDown} from 'react-icons/fa';
+import { FaAngleDown } from 'react-icons/fa';
 
 function Home() {
     const name = 'Oussama Abid';
@@ -46,6 +46,9 @@ function Home() {
                     setNameIndex2(nameIndex2 + 1);
                 }
             }, 100); // Intervalo de tiempo para el apellido (puedes ajustarlo)
+            return () => {
+                clearTimeout(lastNameTimer);
+            };
         }
     }, [nameIndex2, typingLastName]);
 

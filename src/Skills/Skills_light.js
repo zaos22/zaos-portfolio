@@ -16,17 +16,6 @@ function Skills() {
                     <div className='note-align'>
                         <div className="note">
                             <div className='titlecards'>
-                                <p>FW</p>
-                            </div>
-                            <div className='myicons'>
-                                <FaReact className='iconset' />
-                                <FaAngular className='iconset' />
-                                <FaVuejs className='iconset' />
-                                <FaLaravel className='iconset3' />
-                            </div>
-                        </div>
-                        <div className="note">
-                            <div className='titlecards'>
                                 <p>Languages</p>
                             </div>
                             <div className='myicons'>
@@ -34,6 +23,17 @@ function Skills() {
                                 <FaJsSquare className='iconset' />
                                 <FaPython className='iconset' />
                                 <FaJava className='iconset3' />
+                            </div>
+                        </div>
+                        <div className="note">
+                            <div className='titlecards'>
+                                <p>Frameworks</p>
+                            </div>
+                            <div className='myicons'>
+                                <FaReact className='iconset' />
+                                <FaAngular className='iconset' />
+                                <FaVuejs className='iconset' />
+                                <FaLaravel className='iconset3' />
                             </div>
                         </div>
                     </div>
@@ -42,19 +42,6 @@ function Skills() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note">
                             <div className='titlecards'>
-                                <p>FW</p>
-                            </div>
-                            <div className='myicons'>
-                                <FaReact className='iconset' />
-                                <FaAngular className='iconset' />
-                                <FaVuejs className='iconset' />
-                                <FaLaravel className='iconset3' />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <div className="note">
-                            <div className='titlecards'>
                                 <p>Languages</p>
                             </div>
                             <div className='myicons'>
@@ -62,6 +49,20 @@ function Skills() {
                                 <FaJsSquare className='iconset' />
                                 <FaPython className='iconset' />
                                 <FaJava className='iconset3' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='d-flex justify-content-center align-items-center'>
+                        <div className="note">
+
+                            <div className='titlecards'>
+                                <p>Frameworks</p>
+                            </div>
+                            <div className='myicons'>
+                                <FaReact className='iconset' />
+                                <FaAngular className='iconset' />
+                                <FaVuejs className='iconset' />
+                                <FaLaravel className='iconset3' />
                             </div>
                         </div>
                     </div>

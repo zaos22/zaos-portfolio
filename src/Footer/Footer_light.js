@@ -19,8 +19,10 @@ function Footer() {
                         </a>
                         <span className="text-muted">&copy; 2023 Zaos, Website</span>
                     </div>
+
                 </footer>
                 <ul style={{ fontSize: '30px' }} className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <span style={{ fontWeight: 'bold' }} role='list' aria-label="Contact me" className="text-muted">Contact me</span>
                     <li className="ms-3"><a className="text-muted" target='blank' href="https://www.instagram.com/zaos_22/"><span role='link' aria-label="Visit my instagram"><FaInstagram /></span></a></li>
                     <li className="ms-3"><a className="text-muted" target='blank' href="https://github.com/zaos22"><span role='link' aria-label="Visit my github"><FaGithub /></span></a></li>
                     <li className="ms-3"><a className="text-muted" target='blank' href="https://www.linkedin.com/in/zazou-abid-501432240/"><span role='link' aria-label="Visit my linkedin"><FaLinkedin /></span></a></li>
