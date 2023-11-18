@@ -194,7 +194,7 @@
 }
 
 .btn_color {
-  background-color: #e4f0ff;
+  background-color: #ffeada;
   color: #000; /* Text color */
   font-size: 25px;
   padding: 10px 20px; /* Padding */
@@ -557,6 +557,10 @@
   font-size: 60px;
   text-align: center;
   padding-bottom: 100px;
+  animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
+}
+
+.floatxt1 {
   animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
 }
 

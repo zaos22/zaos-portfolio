@@ -10,6 +10,8 @@ import HeaderDark from './Header/Header_dark';
 import MeDark from './Me/Me_dark';
 import SkillsDark from './Skills/Skills_dark';
 import EducationDark from './Education/Education_dark';
+import ProjectsDark from './Projects/Projects_dark';
+import FooterDark from './Footer/Footer_dark';
 import './App.css';
 
 function App() {
@@ -56,10 +58,20 @@ function App() {
                 </div> */}
             </div>
             <div>
-                <ProjectsLight></ProjectsLight>
+                <div>
+                    <ProjectsDark></ProjectsDark>
+                </div>
+                {/* <div>
+                    <ProjectsLight></ProjectsLight>
+                </div> */}
             </div>
             <div>
-                <FooterLight></FooterLight>
+                <div>
+                    <FooterDark></FooterDark>
+                </div>
+                {/* <div>
+                    <FooterLight></FooterLight>
+                </div> */}
             </div>
         </>
     );

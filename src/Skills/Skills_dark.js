@@ -71,7 +71,7 @@ function SkillsDark() {
                     </div>
                 </div>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <div className="note">
+                    <div className="note floatxt">
                         <div className='titlecards text-black'>
                             <p>Others</p>
                         </div>
