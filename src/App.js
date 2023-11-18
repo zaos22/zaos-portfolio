@@ -5,6 +5,7 @@ import SkillsLight from './Skills/Skills_light';
 import EducationLight from './Education/Education_light';
 import ProjectsLight from './Projects/Projects_light';
 import FooterLight from './Footer/Footer_light';
+import HomeDark from './Home/Home_dark';
 import './App.css';
 
 function App() {
@@ -14,8 +15,11 @@ function App() {
                 <HeaderLight></HeaderLight>
             </div>
             <div>
-                <HomeLight></HomeLight>
+                <HomeDark></HomeDark>
             </div>
+            {/* <div>
+                <HomeLight></HomeLight>
+            </div> */}
             <div>
                 <MeLight></MeLight>
             </div>

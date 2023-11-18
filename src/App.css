@@ -20,8 +20,78 @@
   }
 }
 
+.space {
+  position: relative;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.space-container {
+  position: relative;
+  z-index: 1;
+}
+
+.space::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  z-index: 0;
+}
+
+.chaos {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  box-shadow: 200px 400px #fff, 500px 100px #fff, 700px 300px #fff,
+    400px 800px #fff, 900px 700px #fff;
+  animation: moveChaos 10s linear infinite;
+}
+
+.planet {
+  position: absolute;
+  width: 1200px; /* Ajusta el tamaño del planeta según tus necesidades */
+  height: 1200px;
+  background-color: #9b7653; /* Color del planeta (similar a Marte) */
+  border-radius: 50%;
+  left: 20%; /* Ajusta la posición del planeta según tus necesidades */
+  top: 30%;
+  transform: translate(-50%, -50%);
+  animation: rotatePlanet 20s linear infinite;
+  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+}
+
+
+@keyframes moveChaos {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, 50px);
+  }
+  50% {
+    transform: translate(-50px, -50px);
+  }
+  75% {
+    transform: translate(50px, -50px);
+  }
+  100% {
+    transform: translate(-50px, 50px);
+  }
+}
+
+@keyframes rotatePlanet {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
 .headerbg2 {
-  background-image: url('./vector.png');
+  background-image: url("./vector.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -40,7 +110,6 @@
     background-position: 0 0; /* Vuelve al inicio de la animación */
   }
 }
-
 
 .colorbg3 {
   background-color: #e4f0ff;
@@ -189,11 +258,11 @@
   display: none;
 }
 
-.fhide{
+.fhide {
   display: block;
 }
 
-.fhide2{
+.fhide2 {
   display: none;
 }
 
@@ -211,11 +280,11 @@
     border-radius: 10px; /* Bordes redondeados */
   }
 
-  .fhide{
+  .fhide {
     display: none;
   }
-  
-  .fhide2{
+
+  .fhide2 {
     display: block;
   }
 
@@ -298,11 +367,11 @@
     border-radius: 10px; /* Bordes redondeados */
   }
 
-  .fhide{
+  .fhide {
     display: none;
   }
-  
-  .fhide2{
+
+  .fhide2 {
     display: block;
   }
 
@@ -374,7 +443,7 @@
   .font-size-name {
     padding-top: 500px;
   }
-  
+
   .job {
     padding-bottom: 500px;
   }
@@ -405,7 +474,7 @@
     padding-top: 170px;
     font-size: 150px;
   }
-  
+
   .job {
     font-size: 50px;
     padding-bottom: 120px;
@@ -427,7 +496,12 @@
   animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
 }
 
-.iconh:hover{
+.floatxt {
+  color: #fff;
+  animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
+}
+
+.iconh:hover {
   color: #ffeada;
 }
 
