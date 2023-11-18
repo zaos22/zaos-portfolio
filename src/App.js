@@ -6,23 +6,38 @@ import EducationLight from './Education/Education_light';
 import ProjectsLight from './Projects/Projects_light';
 import FooterLight from './Footer/Footer_light';
 import HomeDark from './Home/Home_dark';
+import HeaderDark from './Header/Header_dark';
+import MeDark from './Me/Me_Dark';
 import './App.css';
 
 function App() {
     return (
         <>
             <div>
-                <HeaderLight></HeaderLight>
+                <div>
+                    <HeaderDark></HeaderDark>
+                </div>
+                {/* <div>
+                    <HeaderLight></HeaderLight>
+                </div> */}
             </div>
             <div>
-                <HomeDark></HomeDark>
+                <div>
+                    <HomeDark></HomeDark>
+                </div>
+                {/* <div>
+                    <HomeLight></HomeLight>
+                </div> */}
             </div>
-            {/* <div>
-                <HomeLight></HomeLight>
-            </div> */}
             <div>
-                <MeLight></MeLight>
+                <div>
+                    <MeDark></MeDark>
+                </div>
+                {/* <div>
+                    <MeLight></MeLight>
+                </div> */}
             </div>
+
             <div>
                 <SkillsLight></SkillsLight>
             </div>

@@ -53,7 +53,7 @@ function HomeDark() {
     }, [nameIndex2, typingLastName]);
 
     return (
-        <div className="space">
+        <div className="space1">
             <Container className="space-container">
                 <div className="chaos" />
                 <div className="planet"><div className="chaos" /></div>
