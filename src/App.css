@@ -427,6 +427,10 @@
   animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
 }
 
+.iconh:hover{
+  color: #ffeada;
+}
+
 .titlecards {
   text-align: center;
   font-size: 45px;
