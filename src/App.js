@@ -7,7 +7,8 @@ import ProjectsLight from './Projects/Projects_light';
 import FooterLight from './Footer/Footer_light';
 import HomeDark from './Home/Home_dark';
 import HeaderDark from './Header/Header_dark';
-import MeDark from './Me/Me_Dark';
+import MeDark from './Me/Me_dark';
+import SkillsDark from './Skills/Skills_dark';
 import './App.css';
 
 function App() {
@@ -37,9 +38,13 @@ function App() {
                     <MeLight></MeLight>
                 </div> */}
             </div>
-
             <div>
-                <SkillsLight></SkillsLight>
+                <div>
+                    <SkillsDark></SkillsDark>
+                </div>
+                {/* <div>
+                    <SkillsLight></SkillsLight>
+                </div> */}
             </div>
             <div>
                 <EducationLight></EducationLight>

@@ -81,6 +81,29 @@
   background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
 }
 
+.planet1 {
+  position: absolute;
+  width: 250px; /* Ajusta el tamaño del planeta según tus necesidades */
+  height: 250px;
+  background-color: #9b7653; /* Color del planeta (similar a Marte) */
+  border-radius: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  animation: rotatePlanet 20s linear infinite;
+  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+}
+
+.planet2 {
+  position: absolute;
+  width: 100px; /* Ajusta el tamaño del planeta según tus necesidades */
+  height: 100px;
+  background-color: #9b7653; /* Color del planeta (similar a Marte) */
+  border-radius: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  animation: rotatePlanet 20s linear infinite;
+  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+}
 
 @keyframes moveChaos {
   0% {
