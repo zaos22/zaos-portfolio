@@ -5,7 +5,7 @@ import { FaAngular, FaReact, FaVuejs, FaLaravel, FaPhp, FaPython, FaJsSquare, Fa
 
 function SkillsDark() {
     return (
-        <Navbar expand="lg" className="space1">
+        <Navbar expand="lg" className="space">
             <Container className='d-block space-container'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className='boxtop boxbottom floatxt'>
