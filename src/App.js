@@ -9,6 +9,7 @@ import HomeDark from './Home/Home_dark';
 import HeaderDark from './Header/Header_dark';
 import MeDark from './Me/Me_dark';
 import SkillsDark from './Skills/Skills_dark';
+import EducationDark from './Education/Education_dark';
 import './App.css';
 
 function App() {
@@ -47,7 +48,12 @@ function App() {
                 </div> */}
             </div>
             <div>
-                <EducationLight></EducationLight>
+                <div>
+                    <EducationDark></EducationDark>
+                </div>
+                {/* <div>
+                    <EducationLight></EducationLight>
+                </div> */}
             </div>
             <div>
                 <ProjectsLight></ProjectsLight>

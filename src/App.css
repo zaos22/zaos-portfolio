@@ -78,7 +78,11 @@
   top: 30%;
   transform: translate(-50%, -50%);
   animation: rotatePlanet 20s linear infinite;
-  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    #d3a077 0%,
+    #9b7653 100%
+  );
 }
 
 .planet1 {
@@ -90,7 +94,11 @@
   left: 10%;
   transform: translate(-50%, -50%);
   animation: rotatePlanet 20s linear infinite;
-  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    #d3a077 0%,
+    #9b7653 100%
+  );
 }
 
 .planet2 {
@@ -102,7 +110,28 @@
   right: 0%;
   transform: translate(-50%, -50%);
   animation: rotatePlanet 20s linear infinite;
-  background-image: radial-gradient(ellipse at center, #d3a077 0%, #9b7653 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    #d3a077 0%,
+    #9b7653 100%
+  );
+}
+
+.planet3 {
+  position: absolute;
+  width: 300px; /* Ajusta el tamaño del planeta según tus necesidades */
+  height: 300px;
+  background-color: #9b7653; /* Color del planeta (similar a Marte) */
+  border-radius: 50%;
+  left: 40%;
+  right: 60%;
+  transform: translate(-50%, -50%);
+  animation: rotatePlanet 20s linear infinite;
+  background-image: radial-gradient(
+    ellipse at center,
+    #d3a077 0%,
+    #9b7653 100%
+  );
 }
 
 @keyframes moveChaos {
@@ -124,10 +153,13 @@
 }
 
 @keyframes rotatePlanet {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
-
 
 .headerbg2 {
   background-image: url("./vector.png");
@@ -319,6 +351,11 @@
     border-radius: 10px; /* Bordes redondeados */
   }
 
+  .planet3 {
+    left: 10%;
+    right: 90%;
+  }
+
   .fhide {
     display: none;
   }
@@ -404,6 +441,11 @@
     max-width: 300px; /* Ancho máximo para evitar que se vuelvan demasiado grandes */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
     border-radius: 10px; /* Bordes redondeados */
+  }
+
+  .planet3 {
+    left: 10%;
+    right: 90%;
   }
 
   .fhide {
