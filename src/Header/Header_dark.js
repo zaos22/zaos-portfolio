@@ -8,7 +8,7 @@ const HeaderDark = ({ toggleDarkMode }) => {
         <div className="space">
             <Container className="space-container text-end">
                 <div className="chaos" />
-                <button className='p-1 m-1'
+                <button className='p-2 m-2'
                     style={{
                         backgroundColor: '#ffeada',
                         border: '1px solid #ffeada',

@@ -285,7 +285,7 @@
 }
 
 .font-size-name {
-  padding-top: 100px;
+  padding-top: 95px;
   font-size: 100px;
   font-weight: bold;
   text-align: center;
@@ -569,7 +569,7 @@
 /* Estilo para dispositivos extra grandes (pantallas grandes) */
 @media (min-width: 1201px) {
   .font-size-name {
-    padding-top: 170px;
+    padding-top: 165px;
     font-size: 150px;
   }
 
