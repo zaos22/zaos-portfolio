@@ -10,6 +10,7 @@ const HeaderDark = ({ toggleDarkMode }) => {
                 <div className="chaos" />
                 <button className='p-2 m-2'
                     name='light'
+                    aria-label="light"
                     style={{
                         backgroundColor: '#ffeada',
                         border: '1px solid #ffeada',
