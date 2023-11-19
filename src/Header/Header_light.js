@@ -1,16 +1,27 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import { FaMoon } from 'react-icons/fa';
 
-
-function Header() {
-
+const HeaderLight = ({ toggleDarkMode }) => {
     return (
-        <Navbar expand="lg" className="colorbg1">
-            <Container>
+        <div className="colorbg1">
+            <Container className="space-container text-end">
+                <button className='p-1 m-1'
+                    style={{
+                        backgroundColor: '#1b2735',
+                        border: '1px solid #1b2735',
+                        borderRadius: '50%', // Establece el borde circular
+                        padding: '10px', // Ajusta el relleno según sea necesario
+                        outline: 'none', // Elimina el contorno predeterminado
+                        cursor: 'pointer', // Cambia el cursor al pasar por encima
+                        color: 'white'
+                    }}
+                    onClick={toggleDarkMode}>
+                    <FaMoon />
+                </button>
             </Container>
-        </Navbar>
+        </div>
     );
 }
 
-export default Header;
+export default HeaderLight;

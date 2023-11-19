@@ -19,7 +19,7 @@ function ProjectsDark() {
                                 <p>Mirmeet</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - Vue - WebSocket</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
-                                <p>A decentralised social network, blackchain based, and with real-time chat.</p>
+                                <p>A decentralised social network, blockchain based, and with real-time chat.</p>
                             </div>
                             <div className='d-flex justify-content-center pt-3'>
                                 <a href='https://github.com/PymeraliaProject-Sprint-4/MirmeetProject.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
