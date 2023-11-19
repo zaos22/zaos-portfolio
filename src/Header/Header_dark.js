@@ -9,6 +9,7 @@ const HeaderDark = ({ toggleDarkMode }) => {
             <Container className="space-container text-end">
                 <div className="chaos" />
                 <button className='p-2 m-2'
+                    name='light'
                     style={{
                         backgroundColor: '#ffeada',
                         border: '1px solid #ffeada',

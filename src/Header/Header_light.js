@@ -7,6 +7,7 @@ const HeaderLight = ({ toggleDarkMode }) => {
         <div className="colorbg1">
             <Container className="space-container text-end">
                 <button className='p-2 m-2'
+                    name='dark'
                     style={{
                         backgroundColor: '#1b2735',
                         border: '1px solid #1b2735',
