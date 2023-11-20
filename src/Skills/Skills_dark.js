@@ -8,14 +8,14 @@ function SkillsDark() {
         <Navbar expand="lg" className="space">
             <Container className='d-block space-container'>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <div className='boxtop boxbottom floatxt'>
+                    <div className='boxtop boxbottom text-white'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My skills</h1>
                     </div>
                 </div>
                 <div className="chaos" />
                 <div className='hidediv'>
                     <div className="planet1"><div className="chaos" /></div>
-                    <div className='note-align floatxt'>
+                    <div className='note-align'>
                         <div className="note">
                             <div className='titlecards text-black'>
                                 <p>Languages</p>
@@ -41,7 +41,7 @@ function SkillsDark() {
                     </div>
                     <div className="planet2 floatxt"><div className="chaos" /></div>
                 </div>
-                <div className='hidediv2 floatxt'>
+                <div className='hidediv2'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note">
                             <div className='titlecards text-black'>
@@ -71,7 +71,7 @@ function SkillsDark() {
                     </div>
                 </div>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <div className="note floatxt">
+                    <div className="note">
                         <div className='titlecards text-black'>
                             <p>Others</p>
                         </div>

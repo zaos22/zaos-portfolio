@@ -9,7 +9,7 @@ function MeDark() {
 
     return (
         <Navbar expand="lg" className="space">
-            <Container className='d-flex justify-content-center align-items-center space-container floatxt'>
+            <Container className='d-flex justify-content-center align-items-center space-container'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <div className="chaos" />
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>

@@ -9,7 +9,7 @@ function FooterDark() {
 
     return (
         <Navbar expand="lg" className="space">
-            <Container className=' d-flex justify-content-center align-items-center space-container floatxt'>
+            <Container className=' d-flex justify-content-center align-items-center space-container'>
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
                         <a href="/" className="me-2 text-muted text-decoration-none lh-1">

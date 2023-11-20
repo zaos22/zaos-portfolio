@@ -8,7 +8,7 @@ import { FaInstagram, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 function Footer() {
 
     return (
-        <Navbar expand="lg" className="headerbg2">
+        <Navbar expand="lg" className="colorbg2">
             <Container className=' d-flex justify-content-center align-items-center'>
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
                     <div className="col-md-4 d-flex justify-content-center align-items-center">

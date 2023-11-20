@@ -14,7 +14,7 @@ function ProjectsDark() {
                 <div className="chaos" />
                 <div className='hidediv'>
                     <div className='note-align'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Mirmeet</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - Vue - WebSocket</h5>
                             </div>
@@ -25,7 +25,7 @@ function ProjectsDark() {
                                 <a href='https://github.com/PymeraliaProject-Sprint-4/MirmeetProject.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>PymeShield</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - Vue - Python - Kivy</h5>
                             </div>
@@ -38,7 +38,7 @@ function ProjectsDark() {
                         </div>
                     </div>
                     <div className='note-align'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>DeepCycle</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - React - Bootstrap</h5>
                             </div>
@@ -49,7 +49,7 @@ function ProjectsDark() {
                                 <a href='https://github.com/zaos22/deep-cycle_shop.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
                             </div>
                         </div>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Portfolio</p><h5 className='pb-3' style={{ color: '#9b7653' }} >React - Bootstrap</h5>
                             </div>
@@ -65,7 +65,7 @@ function ProjectsDark() {
                 <div className='hidediv2'>
                     <div className="chaos" />
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Mirmeet</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - Vue - WebSocket</h5>
                             </div>
@@ -78,7 +78,7 @@ function ProjectsDark() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>PymeShield</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - Vue - Python - Kivy</h5>
                             </div>
@@ -91,7 +91,7 @@ function ProjectsDark() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>DeepCycle</p><h5 className='pb-3' style={{ color: '#9b7653' }} >Laravel - React - Bootstrap</h5>
                             </div>
@@ -104,7 +104,7 @@ function ProjectsDark() {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <div className="note floatxt1">
+                        <div className="note">
                             <div className='titlecards'>
                                 <p>Portfolio</p><h5 className='pb-3' style={{ color: '#9b7653' }} >React - Bootstrap</h5>
                             </div>

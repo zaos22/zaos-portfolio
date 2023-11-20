@@ -108,9 +108,10 @@
   height: 250px;
   background-color: #9b7653; /* Color del planeta (similar a Marte) */
   border-radius: 50%;
-  left: 10%;
+  left: -5%;
   transform: translate(-50%, -50%);
   animation: rotatePlanet 20s linear infinite;
+  animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
   background-image: radial-gradient(
     ellipse at center,
     #d3a077 0%,
@@ -413,13 +414,13 @@
   }
 
   .font-size-name {
-    font-size: 80px; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 60px; /* Tamaño de fuente para pantallas más pequeñas */
     padding-top: 220px;
   }
 
   .job {
-    font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
-    padding-bottom: 200px;
+    font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
+    padding-bottom: 250px;
   }
 
   .text-quote {
@@ -505,11 +506,11 @@
   }
 
   .font-size-name {
-    font-size: 100px; /* Tamaño de fuente para pantallas pequeñas */
+    font-size: 80px; /* Tamaño de fuente para pantallas pequeñas */
   }
 
   .job {
-    font-size: 50px; /* Tamaño de fuente para pantallas pequeñas */
+    font-size: 40px; /* Tamaño de fuente para pantallas pequeñas */
   }
 
   .text-quote {

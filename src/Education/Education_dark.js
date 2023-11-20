@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card';
 import { FaUniversity, FaBuilding } from 'react-icons/fa';
 
 function EducationDark() {
-
     return (
         <Navbar expand="lg" className="space">
             <Container className='d-flex justify-content-center align-items-center space-container'>
@@ -71,16 +70,14 @@ function EducationDark() {
                                             <div>
                                                 <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
                                                     <a target='blank' href="https://www.empatica.net/" style={{ textDecoration: 'none', color: '#fff', fontWeight: 'bold' }}>Empatica.net</a>
-                                                    <div style={{fontSize: '20px' }}>
+                                                    <div style={{ fontSize: '20px' }}>
                                                         2022 - 2023 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
                                                         <ul>
-                                                            <ul>
-                                                                <li>Maintenance of a VM web application.</li>
-                                                                <li>Development of new functionalities.</li>
-                                                                <li>Detect bugs and solve them.</li>
-                                                            </ul>
+                                                            <li>Maintenance of a VM web application.</li>
+                                                            <li>Development of new functionalities.</li>
+                                                            <li>Detect bugs and solve them.</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -93,16 +90,14 @@ function EducationDark() {
                                             <div>
                                                 <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
                                                     <a target='blank' href="https://aunclic.shop/" style={{ textDecoration: 'none', color: '#fff', fontWeight: 'bold' }}>Estudio Web Doce</a>
-                                                    <div style={{fontSize: '20px' }}>
+                                                    <div style={{ fontSize: '20px' }}>
                                                         2020 - 2021 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
                                                         <ul>
-                                                            <ul>
-                                                                <li>Design of pages in WordPress.</li>
-                                                                <li>Edit images with Photoshop or GIMP.</li>
-                                                                <li>Migrate WP products to PrestaShop.</li>
-                                                            </ul>
+                                                            <li>Design of pages in WordPress.</li>
+                                                            <li>Edit images with Photoshop or GIMP.</li>
+                                                            <li>Migrate WP products to PrestaShop.</li>
                                                         </ul>
                                                     </div>
                                                 </div>

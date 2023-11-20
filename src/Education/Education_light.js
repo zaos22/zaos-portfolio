@@ -5,10 +5,9 @@ import Card from 'react-bootstrap/Card';
 import { FaUniversity, FaBuilding } from 'react-icons/fa';
 
 function Education() {
-
     return (
         <Navbar expand="lg" className="colorbg2">
-            <Container className='d-flex justify-content-center align-items-center colorbg3'>
+            <Container className='d-flex justify-content-center align-items-center colorbg3' style={{ height: '100vh' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
@@ -53,7 +52,7 @@ function Education() {
                     </Card>
                 </div>
             </Container>
-            <Container className='d-flex justify-content-center align-items-center colorbg4'>
+            <Container className='d-flex justify-content-center align-items-center colorbg4' style={{ height: '100vh' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
@@ -70,16 +69,14 @@ function Education() {
                                             <div>
                                                 <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
                                                     <a target='blank' href="https://www.empatica.net/" style={{ textDecoration: 'none', color: '#000', fontWeight: 'bold' }}>Empatica.net</a>
-                                                    <div style={{fontSize: '20px' }}>
+                                                    <div style={{ fontSize: '20px' }}>
                                                         2022 - 2023 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
                                                         <ul>
-                                                            <ul>
-                                                                <li>Maintenance of a VM web application.</li>
-                                                                <li>Development of new functionalities.</li>
-                                                                <li>Detect bugs and solve them.</li>
-                                                            </ul>
+                                                            <li>Maintenance of a VM web application.</li>
+                                                            <li>Development of new functionalities.</li>
+                                                            <li>Detect bugs and solve them.</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -92,16 +89,14 @@ function Education() {
                                             <div>
                                                 <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
                                                     <a target='blank' href="https://aunclic.shop/" style={{ textDecoration: 'none', color: '#000', fontWeight: 'bold' }}>Estudio Web Doce</a>
-                                                    <div style={{fontSize: '20px' }}>
+                                                    <div style={{ fontSize: '20px' }}>
                                                         2020 - 2021 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
                                                         <ul>
-                                                            <ul>
-                                                                <li>Design of pages in WordPress.</li>
-                                                                <li>Edit images with Photoshop or GIMP.</li>
-                                                                <li>Migrate WP products to PrestaShop.</li>
-                                                            </ul>
+                                                            <li>Design of pages in WordPress.</li>
+                                                            <li>Edit images with Photoshop or GIMP.</li>
+                                                            <li>Migrate WP products to PrestaShop.</li>
                                                         </ul>
                                                     </div>
                                                 </div>

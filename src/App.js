@@ -23,7 +23,7 @@ function App() {
     const [loading, setLoading] = useState(true);
 
     const toggleDarkMode = () => {
-        setLoading(true); // Inicia la animación al cambiar de modo
+        setLoading(false); // Inicia la animación al cambiar de modo
         setIsDarkMode(!isDarkMode);
     };
 
