@@ -9,7 +9,7 @@ function Me() {
 
     return (
         <Navbar expand="lg" className="colorbg2">
-            <Container className='d-flex justify-content-center align-items-center colorbg2'>
+            <Container className='d-flex justify-content-center align-items-center colorbg3'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='card-align'>

@@ -200,7 +200,7 @@
   }
 }
 
-.colorbg3 {
+.colorbg5 {
   background-color: #e4f0ff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -211,7 +211,7 @@
 }
 
 .headerbg1 {
-  background-color: #ffcc67;
+  background-color: #ffde9b;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -268,7 +268,12 @@
 }
 
 .colorbg2 {
-  background-color: #ffcc67;
+  background-color: #ffde9b;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.colorbg3 {
+  background-color: #ffcc65;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -633,7 +638,7 @@
 }
 
 .iconset:hover {
-  color: #ffcc67;
+  color: #ffde9b;
 }
 
 .iconset2 {
@@ -641,11 +646,11 @@
 }
 
 .iconset2:hover {
-  color: #ffcc67;
+  color: #ffde9b;
 }
 
 .iconset3:hover {
-  color: #ffcc67;
+  color: #ffde9b;
 }
 
 @keyframes float {
