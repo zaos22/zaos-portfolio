@@ -52,6 +52,7 @@ function EducationDark() {
                     </Card>
                 </div>
             </Container>
+            <div className='pb-2 mb-2'></div>
             <div className="planet3 floatxt"><div className="chaos" /></div>
             <Container className='d-flex justify-content-center align-items-center colorbg4'>
                 <div className='d-flex justify-content-center align-items-center'>
