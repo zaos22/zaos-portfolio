@@ -211,7 +211,7 @@
 }
 
 .headerbg1 {
-  background-color: #ffc14577;
+  background-color: #ffcc67;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -268,7 +268,7 @@
 }
 
 .colorbg2 {
-  background-color: #ffc14577;
+  background-color: #ffcc67;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -633,7 +633,7 @@
 }
 
 .iconset:hover {
-  color: #ffc14577;
+  color: #ffcc67;
 }
 
 .iconset2 {
@@ -641,11 +641,11 @@
 }
 
 .iconset2:hover {
-  color: #ffc14577;
+  color: #ffcc67;
 }
 
 .iconset3:hover {
-  color: #ffc14577;
+  color: #ffcc67;
 }
 
 @keyframes float {
