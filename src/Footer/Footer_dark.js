@@ -32,8 +32,8 @@ function FooterDark() {
                         </a>
                     </li>
                 </ul>
-                <div className='p-2 m-2'></div>
             </Container>
+            <div className='p-2 m-2'></div>
         </Navbar>
     );
 }

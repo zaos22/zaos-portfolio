@@ -420,7 +420,7 @@
 
   .job {
     font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
-    padding-bottom: 250px;
+    padding-bottom: 200px;
   }
 
   .text-quote {
@@ -591,7 +591,7 @@
 .ArrowDown {
   font-size: 60px;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   animation: float 1s ease-in-out infinite; /* Ajusta la duración de la animación según tus preferencias */
 }
 
