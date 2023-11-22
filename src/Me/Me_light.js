@@ -9,7 +9,7 @@ function Me() {
 
     const handleDownloadCV = () => {
         // Replace 'path/to/your/cv.pdf' with the actual path to your PDF file
-        const pdfPath = './My_CV.pdf';
+        const pdfPath = 'src/Me/My_CV.pdf';
         window.open(pdfPath, '_blank');
     };
 
