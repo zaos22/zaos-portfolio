@@ -8,7 +8,7 @@ import logo from '../Oussama_Zazou_Abid.png';
 function Me() {
 
     const handleDownloadCV = () => {
-        const pdfUrl = 'https://acortar.link/my_cv';
+        const pdfUrl = 'https://acortar.link/myCV';
         window.open(pdfUrl, '_blank');
     };
 
