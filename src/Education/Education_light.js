@@ -109,6 +109,7 @@ function Education() {
                     </Card>
                 </div>
             </Container>
+            <div className='p-2 m-2'></div>
         </Navbar>
     );
 }
