@@ -32,6 +32,7 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
+                <div className='p-2 m-2'></div>
             </Container>
         </Navbar>
     );

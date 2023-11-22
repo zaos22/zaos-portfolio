@@ -42,7 +42,7 @@ function App() {
             {loading ? (
                 <RocketAnimation isLoading={loading} />
             ) : (
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense>
                     <div>
                         {isDarkMode ? <HeaderDark toggleDarkMode={toggleDarkMode} /> : <HeaderLight toggleDarkMode={toggleDarkMode} />}
                     </div>

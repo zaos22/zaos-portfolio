@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import { FaAngleDown } from 'react-icons/fa';
 
 function HomeDark() {
-    const name = 'Oussama ';
-    const lastName = 'Zazou';
+    const name = 'Ossama ';
+    const lastName = 'Abid';
     const [typedName] = useState(name);
     const [typedLastName] = useState(lastName);
     const jobTitle = 'Developer Web';

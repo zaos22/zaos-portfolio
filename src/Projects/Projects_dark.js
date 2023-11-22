@@ -7,7 +7,7 @@ function ProjectsDark() {
         <Navbar expand="lg" className="space">
             <Container className='d-block text-center space-container'>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <div className='boxtop boxbottom floatxt'>
+                    <div className='boxtop boxbottom text-white'>
                         <h1 style={{ fontSize: '70px', fontWeight: 'bold', paddingTop: '50px' }}>My projects</h1>
                     </div>
                 </div>

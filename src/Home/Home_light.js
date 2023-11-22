@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import { FaAngleDown } from 'react-icons/fa';
 
 function Home() {
-    const name = 'Oussama ';
+    const name = 'Ossama ';
     const lastName = 'Zazou';
     const [typedName] = useState(name);
     const [typedLastName] = useState(lastName);
