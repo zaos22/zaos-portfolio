@@ -8,9 +8,8 @@ import logo from '../Oussama_Zazou_Abid.png';
 function MeDark() {
 
     const handleDownloadCV = () => {
-        // Replace 'path/to/your/cv.pdf' with the actual path to your PDF file
-        const pdfPath = 'src/Me/My_CV.pdf';
-        window.open(pdfPath, '_blank');
+        const pdfUrl = 'https://acortar.link/my_cv';
+        window.open(pdfUrl, '_blank');
     };
 
     return (
