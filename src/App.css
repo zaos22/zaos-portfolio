@@ -14,13 +14,13 @@
 
 @keyframes rocketAnimation {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
   50% {
-      transform: translateY(-10px);
+    transform: translateY(-10px);
   }
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -415,12 +415,12 @@
 
   .font-size-name {
     font-size: 60px; /* Tamaño de fuente para pantallas más pequeñas */
-    padding-top: 220px;
+    padding-top: 250px;
   }
 
   .job {
     font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
-    padding-bottom: 200px;
+    padding-bottom: 250px;
   }
 
   .text-quote {
@@ -506,10 +506,12 @@
   }
 
   .font-size-name {
+    padding-top: 300px;
     font-size: 80px; /* Tamaño de fuente para pantallas pequeñas */
   }
 
   .job {
+    padding-bottom: 300px;
     font-size: 40px; /* Tamaño de fuente para pantallas pequeñas */
   }
 

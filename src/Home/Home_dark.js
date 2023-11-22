@@ -4,7 +4,7 @@ import { FaAngleDown } from 'react-icons/fa';
 
 function HomeDark() {
     const name = 'Ossama ';
-    const lastName = 'Abid';
+    const lastName = 'Zazou';
     const [typedName] = useState(name);
     const [typedLastName] = useState(lastName);
     const jobTitle = 'Developer Web';
