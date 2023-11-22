@@ -7,6 +7,12 @@ import logo from '../Oussama_Zazou_Abid.png';
 
 function MeDark() {
 
+    const handleDownloadCV = () => {
+        // Replace 'path/to/your/cv.pdf' with the actual path to your PDF file
+        const pdfPath = 'path/to/your/cv.pdf';
+        window.open(pdfPath, '_blank');
+    };
+
     return (
         <Navbar expand="lg" className="space">
             <Container className='d-flex justify-content-center align-items-center space-container'>
@@ -31,7 +37,7 @@ function MeDark() {
                                     </div>
                                 </Card.Text>
                                 <div className='d-flex justify-content-center pt-3'>
-                                    <button className='btn_color'>Download CV</button>
+                                    <button className='btn_color' onClick={handleDownloadCV}>Download CV</button>
                                 </div>
                             </Card.Body>
                         </div>
