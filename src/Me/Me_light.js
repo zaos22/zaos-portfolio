@@ -25,7 +25,7 @@ function Me() {
                             </div>
                             <Card.Body className='mt-5'>
                                 <div className='mytitle'>
-                                    <Card.Title className='mt-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Hello, and welcome to my space!</Card.Title>
+                                    <Card.Title className='mt-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Hello welcome to my web page!</Card.Title>
                                 </div>
                                 <Card.Text className='pt-3'>
                                     <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>

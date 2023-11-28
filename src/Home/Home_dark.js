@@ -7,7 +7,7 @@ function HomeDark() {
     const lastName = 'Zazou';
     const [typedName] = useState(name);
     const [typedLastName] = useState(lastName);
-    const jobTitle = 'Developer Web';
+    const jobTitle = 'Web Developer';
     const [typedJobTitle] = useState(jobTitle);
     return (
         <div className="space">

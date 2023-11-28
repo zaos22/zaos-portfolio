@@ -18,7 +18,7 @@ function SkillsDark() {
                     <div className='note-align'>
                         <div className="note">
                             <div className='titlecards text-black'>
-                                <p>Languages</p>
+                                <p>Web Languages</p>
                             </div>
                             <div className='myicons text-black'>
                                 <FaPhp className='iconset' />
@@ -29,7 +29,7 @@ function SkillsDark() {
                         </div>
                         <div className="note">
                             <div className='titlecards text-black'>
-                                <p>Frameworks</p>
+                                <p>Web Frameworks</p>
                             </div>
                             <div className='myicons text-black'>
                                 <FaReact className='iconset' />
@@ -45,7 +45,7 @@ function SkillsDark() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note">
                             <div className='titlecards text-black'>
-                                <p>Languages</p>
+                                <p>Web Languages</p>
                             </div>
                             <div className='myicons text-black'>
                                 <FaPhp className='iconset' />
@@ -59,7 +59,7 @@ function SkillsDark() {
                         <div className="note">
 
                             <div className='titlecards text-black'>
-                                <p>Frameworks</p>
+                                <p>Web Frameworks</p>
                             </div>
                             <div className='myicons text-black'>
                                 <FaReact className='iconset' />

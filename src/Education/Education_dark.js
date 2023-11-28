@@ -96,7 +96,7 @@ function EducationDark() {
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
                                                         <ul>
-                                                            <li>Design of pages in WordPress.</li>
+                                                            <li>WordPress design.</li>
                                                             <li>Edit images with Photoshop or GIMP.</li>
                                                             <li>Migrate WP products to PrestaShop.</li>
                                                         </ul>
