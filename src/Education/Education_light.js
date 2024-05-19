@@ -53,7 +53,7 @@ function Education() {
                 </div>
             </Container>
             <div className='pb-2 mb-2'></div>
-            <Container className='d-flex justify-content-center align-items-center colorbg4' style={{ height: '100vh' }}>
+            <Container className='d-flex justify-content-center align-items-center colorbg4' style={{ height: 'auto' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
