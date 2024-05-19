@@ -215,7 +215,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 820px) {
   .colorbg22 {
     background: linear-gradient(to bottom, #e4f0ff 50%, #ddf9e4 50%);
   }
