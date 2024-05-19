@@ -7,7 +7,7 @@ import { FaUniversity, FaBuilding } from 'react-icons/fa';
 function Education() {
     return (
         <Navbar expand="lg" className="colorbg22">
-            <Container className='d-flex justify-content-center align-items-center colorbg5' style={{ height: 'auto' }}>
+            <Container className='d-flex justify-content-center align-items-center' style={{ height: 'auto' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
@@ -53,7 +53,7 @@ function Education() {
                 </div>
             </Container>
             <div className='pb-2 mb-2'></div>
-            <Container className='d-flex justify-content-center align-items-center colorbg4' style={{ height: 'auto' }}>
+            <Container className='d-flex justify-content-center align-items-center' style={{ height: 'auto' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
