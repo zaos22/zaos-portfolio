@@ -215,6 +215,12 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 600px) {
+  .colorbg22 {
+    background: linear-gradient(to bottom, #e4f0ff 50%, #ddf9e4 50%);
+  }
+}
+
 .headerbg1 {
   background-color: #ffde9b;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
