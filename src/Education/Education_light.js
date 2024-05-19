@@ -52,7 +52,7 @@ function Education() {
                     </Card>
                 </div>
             </Container>
-            <div className='pb-5 mb-5'></div>
+            <div className='pb-2 mb-2'></div>
             <Container className='d-flex justify-content-center align-items-center' style={{ height: 'auto' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
@@ -60,6 +60,7 @@ function Education() {
                             <div className='card-align'>
                                 <Card.Body className='mt-3'>
                                     <div className='mytitle text-center'>
+                                        <div className='pb-2 mb-2'></div>
                                         <Card.Title className='mt-5 ps-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Experience</Card.Title>
                                     </div>
                                     <Card.Text className='pt-3'>
