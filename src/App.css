@@ -219,6 +219,10 @@
   .colorbg22 {
     background: linear-gradient(to bottom, #e4f0ff 50%, #ddf9e4 50%);
   }
+  
+  .ptitle {
+    padding-top: 10rem;
+  }
 }
 
 .headerbg1 {
@@ -325,6 +329,9 @@
 .card-align {
   display: flex;
   justify-content: space-between;
+}
+
+.ptitle {
 }
 
 .mytitle {
