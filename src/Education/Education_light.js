@@ -6,7 +6,7 @@ import { FaUniversity, FaBuilding } from 'react-icons/fa';
 
 function Education() {
     return (
-        <Navbar expand="lg" className="colorbg2">
+        <Navbar expand="lg" className="colorbg22">
             <Container className='d-flex justify-content-center align-items-center colorbg5' style={{ height: 'auto' }}>
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
