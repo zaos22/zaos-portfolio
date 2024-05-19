@@ -210,9 +210,9 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.colorbg22 {
+.colorbg2 {
   background: linear-gradient(to right, #e4f0ff 50%, #ddf9e4 50%);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .headerbg1 {
