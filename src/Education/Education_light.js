@@ -57,9 +57,9 @@ function Education() {
                 <div className='d-flex justify-content-center align-items-center'>
                     <Card style={{ width: '100%', backgroundColor: 'transparent', border: 'none', marginTop: '10px', marginBottom: '50px' }}>
                         <div className='text-center'>
-                            <div className='card-align'>
-                                <Card.Body className='mt-3 mb-3'>
-                                    <div className='mytitle text-center pt-2'>
+                            <div className='card-align pt-2'>
+                                <Card.Body className='mt-3'>
+                                    <div className='mytitle text-center'>
                                         <Card.Title className='mt-5 ps-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Experience</Card.Title>
                                     </div>
                                     <Card.Text className='pt-3'>
