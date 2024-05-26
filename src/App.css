@@ -578,6 +578,11 @@
     width: 70%;
     height: auto; /* Ajusta la altura automáticamente */
   }
+  
+  .fixed-width li {
+    width: 300px; /* Puedes ajustar este valor según necesites */
+    word-wrap: break-word;
+  }
 }
 
 /* Estilo para dispositivos extra grandes (pantallas grandes) */
@@ -585,6 +590,11 @@
   .font-size-name {
     padding-top: 165px;
     font-size: 150px;
+  }
+
+  .fixed-width li {
+    width: 300px; /* Puedes ajustar este valor según necesites */
+    word-wrap: break-word;
   }
 
   .job {
@@ -678,6 +688,4 @@
 }
 
 .fixed-width li {
-  width: 300px; /* Puedes ajustar este valor según necesites */
-  word-wrap: break-word;
 }
