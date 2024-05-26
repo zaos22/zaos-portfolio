@@ -45,6 +45,20 @@ function EducationDark() {
                                                 </div>
                                             </div>
                                         </div>
+                                        <div className='d-flex justify-content-between pt-5'>
+                                            <div className='pe-4 pt-4' style={{ fontSize: '50px' }}>
+                                                <FaUniversity />
+                                            </div>
+                                            <div>
+                                                <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
+                                                    Compulsory Secondary Education
+                                                    <div>
+                                                        2014 - 2019
+                                                    </div>
+                                                    Institut La Salle
+                                                </div>
+                                            </div>
+                                        </div>
                                     </Card.Text>
                                 </Card.Body>
                             </div>
@@ -52,7 +66,6 @@ function EducationDark() {
                     </Card>
                 </div>
             </Container>
-            <div className='pb-2 mb-2'></div>
             <div className="planet3 floatxt"><div className="chaos" /></div>
             <Container className='d-flex justify-content-center align-items-center colorbg4'>
                 <div className='d-flex justify-content-center align-items-center'>
@@ -70,12 +83,33 @@ function EducationDark() {
                                             </div>
                                             <div>
                                                 <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
+                                                    <a target='blank' href="https://pylon.market/" style={{ textDecoration: 'none', color: '#fff', fontWeight: 'bold' }}>Pylon Data</a>
+                                                    <div style={{ fontSize: '20px' }}>
+                                                        2023 - 2024 (Internships)
+                                                    </div>
+                                                    <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
+                                                        <ul className="fixed-width">
+                                                            <li>Solve web platform bugs.</li>
+                                                            <li>Automate data collection.</li>
+                                                            <li>Metric design with Looker Studio.</li>
+                                                            <li>Create custom user permissions.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='d-flex justify-content-between pt-5'>
+                                            <div className='pe-4 pt-4' style={{ fontSize: '50px' }}>
+                                                <FaBuilding />
+                                            </div>
+                                            <div>
+                                                <div className="text-justify" style={{ fontSize: '25px', margin: '0', marginTop: '5px' }}>
                                                     <a target='blank' href="https://www.empatica.net/" style={{ textDecoration: 'none', color: '#fff', fontWeight: 'bold' }}>Empatica.net</a>
                                                     <div style={{ fontSize: '20px' }}>
                                                         2022 - 2023 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
-                                                        <ul>
+                                                        <ul className="fixed-width">
                                                             <li>Maintenance of a VM web application.</li>
                                                             <li>Development of new functionalities.</li>
                                                             <li>Detect bugs and solve them.</li>
@@ -95,7 +129,7 @@ function EducationDark() {
                                                         2020 - 2021 (Internships)
                                                     </div>
                                                     <div className='pt-2 text-start text-justify' style={{ fontSize: '18px' }}>
-                                                        <ul>
+                                                        <ul className="fixed-width">
                                                             <li>WordPress design.</li>
                                                             <li>Edit images with Photoshop or GIMP.</li>
                                                             <li>Migrate WP products to PrestaShop.</li>

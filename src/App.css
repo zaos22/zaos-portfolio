@@ -215,13 +215,21 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
+.marginexp{
+  width: 50%;
+}
+
 @media (max-width: 820px) {
   .colorbg22 {
     background: linear-gradient(to bottom, #e4f0ff 50%, #ddf9e4 50%);
   }
-  
+
+  .marginexp{
+    width: 100%;
+  }
+
   .ptitle {
-    padding-top: 10rem;
+    padding-top: 2rem;
   }
 }
 
@@ -687,4 +695,9 @@
   flex: auto;
   justify-content: center;
   text-align: center;
+}
+
+.fixed-width li {
+  width: 300px; /* Puedes ajustar este valor según necesites */
+  word-wrap: break-word;
 }
