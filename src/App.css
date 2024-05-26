@@ -211,26 +211,8 @@
 }
 
 .colorbg22 {
-  background: linear-gradient(to right, #e4f0ff 50%, #ddf9e4 50%);
+  background-color: #ddf9e4;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
-}
-
-.marginexp{
-  width: 50%;
-}
-
-@media (max-width: 820px) {
-  .colorbg22 {
-    background: linear-gradient(to bottom, #e4f0ff 50%, #ddf9e4 50%);
-  }
-
-  .marginexp{
-    width: 100%;
-  }
-
-  .ptitle {
-    padding-top: 2rem;
-  }
 }
 
 .headerbg1 {
@@ -339,9 +321,6 @@
   justify-content: space-between;
 }
 
-.ptitle {
-}
-
 .mytitle {
   text-align: start;
 }
@@ -360,8 +339,8 @@
 
 /* Estilos para las notas adhesivas */
 .note2 {
-  background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
-  border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
+  background-color: #e1fffa; /* Color de fondo similar al color de un post-it */
+  border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
   padding: 20px;
   margin: 20px;
   width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -414,8 +393,8 @@
   }
 
   .note2 {
-    background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
-    border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
+    background-color: #e1fffa; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
     padding: 10px;
     margin: 10px;
     width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -506,8 +485,8 @@
   }
 
   .note2 {
-    background-color: #ddf9e4; /* Color de fondo similar al color de un post-it */
-    border: 1px solid #e4f0ff; /* Borde similar al color de un post-it */
+    background-color: #e1fffa; /* Color de fondo similar al color de un post-it */
+    border: 1px solid #ddf9e4; /* Borde similar al color de un post-it */
     padding: 10px;
     margin: 10px;
     width: 100%; /* Ancho del 100% para ocupar el espacio disponible */
@@ -586,6 +565,7 @@
     width: 70%;
     height: auto; /* Ajusta la altura automáticamente */
   }
+  
 }
 
 /* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
