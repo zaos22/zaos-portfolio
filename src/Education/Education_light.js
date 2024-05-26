@@ -14,7 +14,7 @@ function Education() {
                             <div className='card-align'>
                                 <Card.Body className='mt-3'>
                                     <div className='mytitle text-center'>
-                                        <Card.Title className='ps-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Education</Card.Title>
+                                        <Card.Title className='mt-5 ps-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Education</Card.Title>
                                     </div>
                                     <Card.Text className='pt-3'>
                                         <div className='d-flex justify-content-between'>

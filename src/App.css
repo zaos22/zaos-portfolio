@@ -565,7 +565,11 @@
     width: 70%;
     height: auto; /* Ajusta la altura automáticamente */
   }
-  
+
+  .fixed-width li {
+    width: 300px; /* Puedes ajustar este valor según necesites */
+    word-wrap: break-word;
+  }
 }
 
 /* Estilo para dispositivos grandes (pantallas de computadoras de escritorio) */
@@ -578,7 +582,7 @@
     width: 70%;
     height: auto; /* Ajusta la altura automáticamente */
   }
-  
+
   .fixed-width li {
     width: 300px; /* Puedes ajustar este valor según necesites */
     word-wrap: break-word;
@@ -687,5 +691,7 @@
   text-align: center;
 }
 
-.fixed-width li {
-}
+  .fixed-width li {
+    width: 200px; /* Puedes ajustar este valor según necesites */
+    word-wrap: break-word;
+  }
