@@ -110,7 +110,7 @@ function Projects() {
                                 <p>A minimalist video player page featuring cold colors and a simple structure. The main goal was to explore new audio and video concepts in the programmer point of view.</p>
                             </div>
                             <div className='d-flex justify-content-center pt-3'>
-                                <a href='https://ytvideoplayer-zaos2001.vercel.app/' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>WebSite</a>
+                                <a href='https://ytvideoplayer-zaos2001.vercel.app/' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>Website</a>
                             </div>
                         </div>
                     </div>
