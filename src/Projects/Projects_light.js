@@ -104,13 +104,13 @@ function Projects() {
                     <div className='d-flex justify-content-center align-items-center'>
                         <div className="note2">
                             <div className='titlecards'>
-                                <p>Portfolio</p><h5 className='pb-3' style={{ color: '#ffcc65' }} >React - Bootstrap</h5>
+                                <p>Video Player</p><h5 className='pb-3' style={{ color: '#ffcc65' }} >React - Bootstrap</h5>
                             </div>
                             <div className='text-center' style={{ fontSize: '16px' }}>
-                                <p>Minimalist portfolio page with warm colors and simple structure.</p>
+                                <p>A minimalist video player page featuring cold colors and a simple structure. The main goal was to explore new audio and video concepts in the programmer point of view.</p>
                             </div>
                             <div className='d-flex justify-content-center pt-3'>
-                                <a href='https://github.com/zaos22/zaos-portfolio.git' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>GitHub</a>
+                                <a href='https://ytvideoplayer-zaos2001.vercel.app/' target='blank' style={{ textDecoration: 'none' }} className='btn_color'>WebSite</a>
                             </div>
                         </div>
                     </div>
