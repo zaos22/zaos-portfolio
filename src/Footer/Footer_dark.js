@@ -22,7 +22,6 @@ function FooterDark() {
 
                 </footer>
                 <ul style={{ fontSize: '30px' }} className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <span style={{ fontWeight: 'bold', color: '#fff' }} role='list' aria-label="Contact me" className="text-white">Contact me</span>
                     <li className="ms-3"><a className="text-white" target='blank' href="https://github.com/zaos22"><span role='link' aria-label="Visit my github"><FaGithub className='iconh' /></span></a></li>
                     <li className="ms-3"><a className="text-white" target='blank' href="https://www.linkedin.com/in/zazou-abid-501432240/"><span role='link' aria-label="Visit my linkedin"><FaLinkedin className='iconh' /></span></a></li>
                     <li className='ms-3'>
